@@ -38,7 +38,7 @@ li {
  font-size: 18px;
 }
 .menu li:hover {
- background-color: #4c9e9e;
+ background-color: #a9a1a1;
  border-radius: 5px;
  transition: 0.3s ease;
 }
@@ -50,7 +50,7 @@ li {
  position: relative; 
 }
 .dropdown {
- background-color: rgb(1, 139, 139);
+ background-color: rgb(141, 86, 86);
  padding: 1em 0;
  position: absolute; 
  display: none;
