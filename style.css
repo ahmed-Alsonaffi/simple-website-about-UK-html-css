@@ -4,7 +4,9 @@
  padding: 0;
  box-sizing: border-box;
 }
+
 body {
+   
  font-family: cursive;
 }
 a {
@@ -16,6 +18,7 @@ li {
 
 /* NAVBAR STYLING STARTS */
 .navbar {
+   
  display: flex;
  align-items: center;
  justify-content: space-between;
@@ -25,7 +28,7 @@ li {
  color: #fff;
 }
 .nav-links a {
- color: #fff;
+ color: #f8f8f8;
 }
 /* LOGO */
 .logo {
@@ -206,6 +209,7 @@ input[type=checkbox]:checked ~ .menu{
 }
 
 .main{
+   
     margin-top: 20px;
     padding: 10px;
 }
