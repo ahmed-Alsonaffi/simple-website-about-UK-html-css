@@ -13,3 +13,16 @@ if you want to see Bothina's editing click the link bellow
 - Fullscreen mode
 - Cross platform
 
+- 
+## Usage/Examples
+
+```javascript
+import Component from 'my-project'
+
+function App() {
+  return <Component />
+}
+```
+
+
+
