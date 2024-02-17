@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>index</title>
+        <link rel="stylesheet" href="../static/bootstrap.min.css">
+        <link rel="stylesheet" href="../static/bootstrap.css">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        
+ <div class="jumbotron text-center">
+  <h2>Classification Model About fake News</h2>
+</div>
+ <div class="container">
+	<form method="POST" action="process" enctype="multipart/form-data">
+        
+        <label ><strong>Enter Your Text Below To Be Prediction</strong></label><br>
+        <textarea class="form-control" rows="15" cols="40" name="myText"></textarea><br>
+        <button class="btn btn-info">Submit</button>
+        <button class="btn btn-danger" onclick="myclear()" name='clr_text'>Clear</button>
+        <div class="pull-right">
+  <label class="btn btn-primary">
+    <span class="glyphicon glyphicon-upload"></span>
+    <span>Importar dataset</span>
+    <input type="file" class="hidden" name="myFile" autocomplete="off">  
+  </label>
+    label of dataset prediction <input type="input"  name="mytitle">
+</div>
+    </form>  
+  
+ </div>
+         
+        
+        
+        <div class="panel panel-primary" style="margin-top:2%; margin-left: 2%;margin-right: 2%; ">
+              <div class="panel-heading">
+                <h3 class="panel-title">The Result of Predication</h3>
+              </div>
+              <div class="panel-body">
+              {{value}}
+              </div>
+        </div>
+    
+        <script  src="../js/jquery-3.6.3.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script>
+        function myclear(){
+            window.myText.value="";
+        }
+        </script>
+    </body>
+</html>
