@@ -1,5 +1,6 @@
 /* UTILITIES */
 
+
 * {
  margin: 0;
  padding: 0;
@@ -59,6 +60,7 @@ li {
  color: #fff;
 }
 .nav-links a {
+
  color: #f8f8f8;
 }
 /* LOGO */
@@ -98,6 +100,8 @@ li {
  padding: 0.5em 1em;
  width: 8em;
  text-align: center;
+ text-decoration: #4c9e9e;
+ 
 }
 .dropdown li:hover {
  background-color: #e278cf;
@@ -123,7 +127,7 @@ input[type=checkbox]{
 .menu { 
  display:none;
  position: absolute;
- background-color:teal;
+ background-color:rgb(128, 0, 0);
  right: 0;
  left: 0;
  text-align: center;
@@ -258,5 +262,23 @@ input[type=checkbox]:checked ~ .menu{
     position: absolute;
     margin-left: 10px;
   
+}
+.im{ text-decoration: none;
+    width: 139px;
+    height: 79p;
+    flex-direction: row;
+    color:teal;
+    border-radius: 20px;
+    box-shadow: 0 19px rgb(0, 0, 0,0.2);
+
+    background-color: white;
+}.im a{
+    margin-left: 50px;
+    margin-top: 50%;
+    text-decoration: none;
+}
+.im img{
+    margin-top: -50px;
+    margin-left: 10px;
 }
 
