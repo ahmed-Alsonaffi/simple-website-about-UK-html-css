@@ -13,6 +13,8 @@ if you want to see Bothina's editing click the link bellow
 - Fullscreen mode
 - Cross platform
 
+## 🛠 Skills
+Javascript, HTML, CSS...
 
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherineoelsner.com/)
