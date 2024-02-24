@@ -29,7 +29,7 @@ li {
   }
   
   #change-color-btn:hover {
-    background-color:#e278cf;
+    background-color:#ab0cb1;
   }
   
   .color-1 {
@@ -104,7 +104,7 @@ li {
  
 }
 .dropdown li:hover {
- background-color: #e278cf;
+ background-color: #a22fcf;
 }
 .services:hover .dropdown {
  display: block;
